@@ -213,10 +213,10 @@ Provide only the JSON response, no additional text.`;
                   onChange={(e) => setLanguage(e.target.value)}
                   className="bg-gray-700 border border-gray-600 rounded-lg px-3 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
+                    <option value="cpp">C++</option>
+                    <option value="java">Java</option>
+                    <option value="python">Python</option>
                   <option value="javascript">JavaScript</option>
-                  <option value="python">Python</option>
-                  <option value="java">Java</option>
-                  <option value="cpp">C++</option>
                   <option value="csharp">C#</option>
                   <option value="go">Go</option>
                   <option value="rust">Rust</option>

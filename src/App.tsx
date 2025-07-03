@@ -16,7 +16,7 @@ interface ReviewResult {
 
 function App() {
   const [code, setCode] = useState('');
-  const [language, setLanguage] = useState('javascript');
+  const [language, setLanguage] = useState('cpp');
   const [errorDescription, setErrorDescription] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [review, setReview] = useState<ReviewResult | null>(null);

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, Code, Sparkles, CheckCircle, AlertCircle, Info, Zap, MessageSquare } from 'lucide-react';
+import { Send, Code, Sparkles, CheckCircle, AlertCircle, Info, Zap, MessageSquare,Heart } from 'lucide-react';
 
 interface ReviewResult {
   overall_score: number;

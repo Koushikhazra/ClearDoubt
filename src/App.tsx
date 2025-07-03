@@ -180,15 +180,20 @@ Provide only the JSON response, no additional text.`;
               </div>
               <div>
                 <h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                  AI Code Reviewer
+                   ReviewYourCode
                 </h1>
-                <p className="text-sm text-gray-400">Powered by Gemini AI</p>
+                <p className="text-sm text-gray-400">clear your doubt</p>
               </div>
             </div>
-            <div className="flex items-center space-x-2">
-              <Sparkles className="w-5 h-5 text-purple-400" />
-              <span className="text-sm text-gray-300">Smart Analysis</span>
-            </div>
+                     <a
+  href="https://www.linkedin.com/in/koushik-hazra-b9ab5b224/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center space-x-2"
+>
+  <Heart  className="w-5 h-5 text-red-400"  animate-spin/>
+  <span className="text-sm text-gray-300">Koushik Hazra</span>
+</a>
           </div>
         </div>
       </div>
@@ -236,8 +241,8 @@ Provide only the JSON response, no additional text.`;
             <div className="bg-gray-800 rounded-xl p-6 border border-gray-700">
               <div className="flex items-center mb-4">
                 <MessageSquare className="w-5 h-5 text-orange-400 mr-2" />
-                <h3 className="text-lg font-semibold">Error Description</h3>
-                <span className="ml-2 text-sm text-gray-400">(Optional)</span>
+                <h3 className="text-lg font-semibold">  Describe Here</h3>
+                <span className="ml-2 text-sm text-gray-400"> </span>
               </div>
               
               <textarea
@@ -248,7 +253,7 @@ Provide only the JSON response, no additional text.`;
               />
               
               <div className="mt-2 text-xs text-gray-500">
-                💡 Adding error details helps the AI provide more targeted solutions
+                  wait and count 5 to -5 
               </div>
             </div>
 
